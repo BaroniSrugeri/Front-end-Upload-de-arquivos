@@ -1,36 +1,60 @@
 *{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(59, 59, 58);
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
 }
 header{
     text-align: center;
-    background-color: rgb(59, 59, 58);
-    color: rgb(255, 255, 255);
-    padding: 110px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 60px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .img{
+    align-items: center;
     width: 400;
     height: 200;
+    margin-top: 60px;
 
 }
 input{
     display: block;
-    margin: 10px 0;
-    width: 100%;
-    border: none;
+    width: 97%;
+    border: 1px solid rgb(0, 0, 0);
     outline: none;
-    padding: 10px;
-    border-bottom: 1px solid #ffffff; 
+    padding: 15px;
+    border-bottom: 1px solid #000000;
+    margin: 10px;
+    
 }
 .corpo{
-    align-content: center;
-    background-color: rgb(59, 59, 58);
-    padding: 130px;
+    background-color: rgb(255, 255, 255);
+    padding: 80px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 10px;
+    margin-top: -60px;
     text-align: center;
     font-size: large;
-    color: white;
+    color: rgb(0, 0, 0); 
+}
+::-webkit-file-upload-button{
+    cursor: pointer;
+    background-color: rgb(241, 255, 81);
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    width: 130px;
+    border-color: rgb(255, 251, 0);
+    border-radius: 5px;
+    cursor: pointer;
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: rgb(47, 159, 203);
+    font-size: large;
+    height: 50px;
+    width: 30%;
+    background-color: rgb(22, 147, 196);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 5px;
 }
